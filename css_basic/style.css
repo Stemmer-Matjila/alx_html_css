@@ -2,18 +2,25 @@ body {
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    background-color: #242f33;
 }
 main {
     font-weight: bold;
     display: flex;
     flex-direction: row;
     flex: auto;
+    color: whitesmoke;
 }
 article {
     flex: 2;
     overflow-y: auto;
+    color: whitesmoke;
 }
 aside {
     flex: 1;
     overflow-y: auto;
+}
+header :hover{
+    color: #9EABA2;
+
 }
